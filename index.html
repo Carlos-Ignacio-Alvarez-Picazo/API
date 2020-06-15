@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Proyecto API</title>
+        <t1>Peliculas</t1>
+    </head>
+    <body>
+        <ul id="peliculas"></ul>
+
+        <script> 
+
+       var xhttp=new  XMLHttpRequest () ;
+      xhttp.onreadystatechange=function (){
+        if (this.readyState==4 && this.status==200)
+        {
+          var respuesta= JSON.parse(xhttp.responseText);
+          console.log(respuesta);
+          var peliculas=respuesta.peliculas;
+          var salida='';
+
+          for(var i=0 ;i < peliculas.length ;i ++ ){
+            salida+='<li>{peliculas[i].nombre}su duracion es {duración [i].duracion}</li>'
+          }
+
+          document.getElementById ('peliculas').innerHTML=salida;
+
+        }
+      } ;
+      xhttp.open("GET","peliculas.json",true);
+      xhttp.send();
+     
+        </script>
+
+
+    </body>
+
+</html>

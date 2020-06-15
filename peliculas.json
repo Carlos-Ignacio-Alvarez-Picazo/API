@@ -1,0 +1,14 @@
+{
+    "peliculas":[
+        {"nombre":"el señor de los anillos", "duracion": "3 horas","genero":"ficcion", "clasificacion": "5 estrellas", "año de estreno": 2000},
+        {"nombre": "La bruja de blear", "duracion": "2 horas","genero":"terror", "clasificacion": "4 estrellas", "año de estreno": 2003},
+        {"nombre": "iron man", "duracion": "2 horas","genero":"accion", "clasificacion": "5 estrellas", "año de estreno": 2004},
+        {"nombre": "avengers", "duracion": "2 horas y media","genero":"accion", "clasificacion": "4 estrellas", "año de estreno": 2012},
+        {"nombre": "los increibles", "duracion": "1 hora 30 minutos","genero":"accion", "clasificacion": "4 estrellas", "año de estreno": 2003},
+        {"nombre": "toy story", "duracion": "2 horas","genero":"animada", "clasificacion": "4 estrellas", "año de estreno": 2002},
+        {"nombre": "y donde están las rubias", "duracion": "2 horas","genero":"comedia", "clasificacion": "5 estrellas", "año de estreno": 2008},
+        {"nombre": "scary movie", "duracion": "2 horas y media","genero":"comedia", "clasificacion": "4 estrellas", "año de estreno": 2004},
+        {"nombre": "cars", "duracion": "2 horas","genero":"accion", "clasificacion": "3 estrellas", "año de estreno": 2002}
+
+    ]
+}
